@@ -1,0 +1,54 @@
+{
+  "input": {
+    "workflow": {
+      "9": {
+        "inputs": {
+          "filename_prefix": "Qwen_Edit_2511",
+          "images": [
+            "143",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      },
+      "41": {
+        "inputs": {
+          "image": "leather_sofa.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "83": {
+        "inputs": {
+          "image": "texture_fur.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "143": {
+        "inputs": {
+          "filename": "Change the furniture leather difference in image 1 to the fur material in image 2.",
+          "image": [
+            "41",
+            0
+          ],
+          "image2": [
+            "83",
+            0
+          ]
+        },
+        "class_type": "a608e096-82ec-413d-b8dc-ff5228095f13",
+        "_meta": {
+          "title": "a608e096-82ec-413d-b8dc-ff5228095f13"
+        }
+      }
+    }
+  }
+}
